@@ -151,6 +151,9 @@ const TourDetails = () => {
           <input type="text" placeholder="title"  className="mb-3 w-full p-2 rounded-md shadow-md outline-none"/>
           <textarea placeholder="we would like to know your opinion about our service.." type="text" name="" id="" rows={5} className="w-full outline-none shadow-md p-2 rounded-md"/>
         </div>
+        <button className="bg-[#11A4BC] mt-[10px]  text-white rounded-md hover:opacity-[0.9] trani   self-start px-7 w-fit py-3  cursor-pointer sm:mx-auto ">
+        confirm
+      </button>
       </div>
       {/* <div className=" w-[100vw]">
        <h1 className="font-bold text-[30px] mb-5">Explore other options</h1>
