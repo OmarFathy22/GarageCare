@@ -31,7 +31,7 @@ const DRAWER = ({ isOpen, toggleDrawer }) => {
               <input
                 placeholder="search..."
                 type="text"
-                className="pl-2 w-full py-2 border-b-[3px] border-b-[#165064] rounded-md outline-none "
+                className="pl-2 w-[90%] mx-auto py-2 border-b-[3px] border-b-[#165064] rounded-md outline-none "
               />
             </div>
             <ul className="flex  text-center gap-7  text-[#165064] font-bold text-[18px] flex-col className">

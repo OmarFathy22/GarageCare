@@ -19,7 +19,7 @@ export default function TravelStyle() {
         SubTitle={"SEE WHAT OUR CUSTOMERS SAY ABOUT US"}
         Img={"https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&w=600"}
       />
-         <MobStartScreen title={"Reviews"} subtitle={"See what our customers say about us"} img={"/Camel-Ride.png"}/>
+         <MobStartScreen title={"Reviews"} subtitle={"See what our customers say about us"} img={"https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&w=600"}/>
        <div className="w-[90%] mx-auto mb-[100px]">
 
         <div className="mt-[40px]">
