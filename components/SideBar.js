@@ -27,11 +27,11 @@ const DRAWER = ({ isOpen, toggleDrawer }) => {
           </Link>
 
           <nav className="">
-            <div className="   flex-1 my-10   min-1200:hidden">
+            <div className="   flex-1 my-10  w-[90%] flex mx-auto   min-1200:hidden">
               <input
                 placeholder="search..."
                 type="text"
-                className="pl-2 w-full mx-[5%]  py-2 border-b-[3px] border-b-[#165064] rounded-md outline-none "
+                className="pl-2 w-full  py-2 border-b-[3px] border-b-[#165064] rounded-md outline-none "
               />
             </div>
             <ul className="flex  text-center gap-7  text-[#165064] font-bold text-[18px] flex-col className">
