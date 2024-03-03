@@ -48,23 +48,20 @@ const Footer = () => {
         <Link href="/" className="underline font-bold">
             Home
           </Link>
-          <Link href="/travel-packages" className="underline font-bold">
-            Travel Packages
+          <Link href="/products" className="underline font-bold">
+            Products
           </Link>
-          <Link href="/nile-cruise" className="underline font-bold">
-            Nile Cruise
+          <Link href="/services" className="underline font-bold">
+            Services
           </Link>
-          <Link href="/shore-excurssion" className="underline font-bold">
-            Shore Excurssion
+          <Link href="/contact-us" className="underline font-bold">
+            Contact Us
           </Link>
-          <Link href="/tailor-made" className="underline font-bold">
-            Tailor made
-          </Link>
-          <Link href="/travel-style" className="underline font-bold">
-            Travel Style
-          </Link>
-          <Link href="/reviews" className="underline font-bold ">
+          <Link href="/reviews" className="underline font-bold">
             Reviews
+          </Link>
+          <Link href="/sign-in" className="underline font-bold">
+            Sign in
           </Link>
         </ul>
       </div>
