@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root , body{
+  overflow-x:hidden;
+
+}
+
+@layer base {
+  :root {
+    --primary: #11A4BC;
+    --secondary: #165064;
+    --tertiary: #ff0048;
+    /* ... */
+  }
+}
+
+
+.borderr {
+  border: 4px solid red;
+}
+
+/* Drawer */
+.EZDrawer .EZDrawer__overlay {
+  height: 200vh !important;
+}
+
+/* fade in animation  */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade 2s ease-in-out;
+}
+
+/* for responsive design  */
+/* Bigcard */
+
+
+@media screen and (max-width: 1300px) {
+  .BigCard {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .BigCard {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .BigCard {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BigCard {
+    width: 100%;
+  }
+}
+
+/* tour card */
+/* Tour Card */
+.TourCard {
+  transition: transform 0.8s ease-out;
+  cursor: pointer;
+}
+
+.TourCard:hover {
+  transform: scale(1.07);
+}
+
+
+/* css for the collapisble */
+
+.custom-collapse {
+  transition: height 0.5s ease;
+}
+/* // hide the scroll bar */
+.filterScrollBar{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
