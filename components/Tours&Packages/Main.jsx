@@ -14,9 +14,9 @@ const Main = () => {
       <div className="w-[35%]  flex flex-col gap-[30px] min-1200:pt-[50px] max-1200:hidden ">
         <FilterByPrice/>
         <FilterByReviews/>
-        <FilterByDestination/>
-        <FiterByTravleStyle/>
         <FilterByHotDeals/>
+        {/* <FilterByDestination/> */}
+        {/* <FiterByTravleStyle/> */}
         <div className="flex items-center justify-between w-[80%] mx-auto ">
                 <button className="underline text-blue-400 hover:opacity-[0.9] text-[18px]">
                   clear

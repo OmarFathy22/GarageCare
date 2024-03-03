@@ -41,7 +41,7 @@ const Nav = () => {
         />
 
       <DRAWER isOpen={isOpen} toggleDrawer={toggleDrawer} />
-      <div className="w-full r  flex justify-between items-center min-1300:hidden">
+      <div className="w-full   flex justify-between items-center min-1300:hidden">
         <Link href={"/"}>
           <Image
             width={84}
@@ -69,19 +69,19 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              href="/day-tours"
+              href="/products"
               className="mr-[20px]"
             >
               Products
             </Link>
             <Link
-              href="/nile-cruise"
+              href="/services"
               className="mr-[20px]"
             >
               Services 
             </Link>
             <Link
-              href="/shore-excurssion"
+              href="/contact-us"
               className="mr-[20px]"
             >
               Contact us	
@@ -93,7 +93,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link href="/travel-packages" className="mr-[20px]">
+            <Link href="/sign-in" className="mr-[20px]">
               Sign in
             </Link>
           </li>

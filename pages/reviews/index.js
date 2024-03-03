@@ -17,7 +17,7 @@ export default function TravelStyle() {
       <Hero
         Title={"Reviews"}
         SubTitle={"SEE WHAT OUR CUSTOMERS SAY ABOUT US"}
-        Img={"/tarvel-style-bg.png"}
+        Img={"https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&w=600"}
       />
          <MobStartScreen title={"Reviews"} subtitle={"See what our customers say about us"} img={"/Camel-Ride.png"}/>
        <div className="w-[90%] mx-auto mb-[100px]">

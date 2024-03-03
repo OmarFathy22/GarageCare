@@ -5,7 +5,7 @@ const Hero = ({img}) => {
     <div>
     
       <div className="mx-auto w-[70%] h-[300px] flex justify-center max-900:h-[200px] max-900:w-full max-900:mt-4">
-        <Img
+        <img
           width={200}
           height={200}
           className="w-full h-full rounded-[70px] max-900:rounded-[40px] "

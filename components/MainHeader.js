@@ -22,6 +22,9 @@ const MainHeader = () => {
         <Link href={"/"} className=" min-600:hidden">
           <Img src="/logo-white.png" className="h-[80px] w-[80px] min-600:hidden  object-contain sm:block " />
         </Link>
+         <div className=" flex-1 min-900:px-10 pl-3 px-6 max-1200:hidden">
+            <input placeholder="search..." type="text" className="pl-2 w-full py-2 rounded-md outline-none "/>
+         </div>
          <h1 onClick={toggleDrawer} className="text-white cursor-pointer bg-[--primary] text-[20px] p-1 rounded-full font-bold hidden shadow-md max-1300:block"><HiMenu/></h1>
         <nav className="flex  ml-auto items-center max-1300:hidden">
           <ul className=" flex text-[#fff] font-medium text-[16px] items-center max-1300:hidden">
@@ -36,76 +39,36 @@ const MainHeader = () => {
             </li>
             <li
               className={`${
-                path == 'day-tours' ? "bg-[#11A4BC]" : " bg-transparent"
+                path == 'products' ? "bg-[#11A4BC]" : " bg-transparent"
               } py-[10px] px-[14px] rounded-[10px]`}
             >
-              <Link href="/day-tours" className="text-[16px]">
-                Day Tours
+              <Link href="/products" className="text-[16px]">
+                Products
               </Link>
             </li>
             <li
               className={`${
-                path == 'nile-cruise' ? "bg-[#11A4BC]" : " bg-transparent"
+                path == 'services' ? "bg-[#11A4BC]" : " bg-transparent"
               } py-[10px] px-[14px] rounded-[10px]`}
             >
-              <Link href="/nile-cruise" className="text-[16px]">
-              Nile Cruise 
+              <Link href="/services" className="text-[16px]">
+              Services 
               </Link>
             </li>
-            <li
-              className={`${
-                path == 'shore-excurssion' ? "bg-[#11A4BC]" : " bg-transparent"
-              } py-[10px] px-[14px] rounded-[10px]`}
-            >
-              <Link href="/shore-excurssion" className="text-[16px]">
-              Shore excurssion	
-              </Link>
-            </li>
+            
+          
+          
+          
+            
+          
             <li>
-              <Link href="/travel-packages" className="text-[16px]">
+              <Link href="/contact-us" className="text-[16px]">
                 <span
                   className={`${
-                    path == "travel-packages"
-                      ? "bg-[#11A4BC]"
-                      : " bg-transparent"
+                    path == "contact-us" ? "bg-[#11A4BC]" : " bg-transparent"
                   } py-[12px] px-[13px] rounded-[10px] z-40`}
                 >
-                  Travel Packages
-                </span>
-              </Link>
-            </li>
-            {/* <li>
-              <Link href="/offers">
-                <span
-                  className={`${
-                    path == "offers" ? "bg-[#11A4BC]" : " bg-transparent"
-                  } py-[12px] px-[13px] rounded-[10px] z-40`}
-                >
-                  Offers
-                </span>
-              </Link>
-            </li> */}
-            <li>
-              <Link href="/travel-style" className="text-[16px]">
-                <span
-                  className={`${
-                    path == "travel-style"
-                      ? "bg-[#11A4BC]"
-                      : " bg-transparent"
-                  } py-[12px] px-[13px] rounded-[10px] z-40`}
-                >
-                  Travel Style
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/tailor-made" className="text-[16px]">
-                <span
-                  className={`${
-                    path == "tailor-made" ? "bg-[#11A4BC]" : " bg-transparent"
-                  } py-[12px] px-[13px] rounded-[10px] z-40`}
-                >
-                  Tailor made
+                  Contact Us
                 </span>
               </Link>
             </li>
@@ -117,6 +80,17 @@ const MainHeader = () => {
                   } py-[12px] px-[13px] rounded-[10px] z-40`}
                 >
                   Reviews
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/sign-in" className="text-[16px]">
+                <span
+                  className={`${
+                    path == "sign-in" ? "bg-[#11A4BC]" : " bg-transparent"
+                  } py-[12px] px-[13px] rounded-[10px] z-40`}
+                >
+                  Sign in
                 </span>
               </Link>
             </li>
@@ -136,6 +110,7 @@ const MainHeader = () => {
           </ul>
         </nav>
       </div>
+      
     </div>
   );
 };

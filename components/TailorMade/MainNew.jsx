@@ -4,8 +4,7 @@ import Collapsible from '../../components/NileCruise/FAQs.jsx'
 const Main = () => {
   return (
     <div className="w-[90%] mx-auto mb-[60px]   sm:w-full ">
-      <h1 className=" text-[30px] text-center mb-[50px] max-1200:mt-[30px] sm:mb-[20px]">Tailor-Made your tour</h1>
-      <div className="w-full sm:w-[90%] sm:mx-auto">
+      <div className="w-full sm:w-[90%] sm:mx-auto mt-[50px]">
         <Form />
       </div>
 

@@ -22,7 +22,7 @@ const TourCard = ({ item  }) => {
         {/* first part */}
         <div className="flex flex-col gap-2">
         
-          <h1 className="font-bold text-[24px]">{"3 Nights Nile Cruise from Aswan to Luxor"}</h1>
+          <h1 className="font-bold text-[24px]">{item.name}</h1>
           <p className="text-[#555] text-[15px]">Egypt</p>
         </div>
         <hr className="my-4" />

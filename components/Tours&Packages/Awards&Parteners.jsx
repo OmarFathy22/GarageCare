@@ -18,9 +18,9 @@ const parteners = [
 ];
 const AwardsParteners = () => {
   return (
-    <div>
+    <div className=''>
     {/* {Awards & Recognitions} */}
-  <div className="mt-[20px]">
+  <div className="mt-[20px] ">
   <h1 className="text-center text-[30px] mb-[30px]">Awards & Recognitions</h1>
     <div
       style={{

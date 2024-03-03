@@ -52,7 +52,7 @@ export default function Home() {
               backgroundPosition: "center",
               
             }}
-            className="flex flex-col w-full    items-center justify-center h-[120vh] sm:h-[600px]  Img bg-[#FCFAFB]  "
+            className="flex flex-col w-full    items-center justify-center h-[120vh] sm:h-[400px] rounded-b-xl  Img bg-[#FCFAFB]  "
           >
             <Image loading="lazy" src="/logo-white.png" alt="logo-white" width={2000} height={80} style={{visibility:"hidden"}} />
           </div>
@@ -119,26 +119,26 @@ export default function Home() {
         />
         {/* --------------- */}
         <div className="flex max-1200:flex-col justify-center sm:!hidden w-full gap-[40px] mb-[50px] px-[50px] max-900:flex max-900:flex-wrap max-900:justify-center max-900:mb-10 max-900:mt-6 max-900:gap-5 max-900:px-[20px]  ">
-          <Link href={'/day-tours'} className="flex-1 ">
+          <Link href={'/products'} className="flex-1 ">
             <BigCard Image={"https://images.pexels.com/photos/4315573/pexels-photo-4315573.jpeg?auto=compress&cs=tinysrgb&w=600"} Title={"Products"} />
           </Link>
-          <Link href={'/nile-cruise'} className="flex-1 ">
+          <Link href={'/services'} className="flex-1 ">
             <BigCard Image={"https://images.pexels.com/photos/8470886/pexels-photo-8470886.jpeg?auto=compress&cs=tinysrgb&w=600"} Title={"Services"} />
           </Link>
-          <Link href={'/shore-excurssion'} className="flex-1  max-900:hidden">
+          <Link href={'/products'} className="flex-1  max-900:hidden">
             <BigCard Image={"https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=600"} Title={"Packages"} />
           </Link>
         </div>
         <div className="w-full mb-5 min-600:hidden ">
           <MobSlider settings={settings}>
-          <Link href={'/day-tours'} className="px-[5%] mb-4">
-            <BigCard Image={"/3.jpg"} Title={"Day Tours"} />
+          <Link href={'/products'} className="flex-1 px-[5%] mb-4 ">
+            <BigCard Image={"https://images.pexels.com/photos/4315573/pexels-photo-4315573.jpeg?auto=compress&cs=tinysrgb&w=600"} Title={"Products"} />
           </Link>
-          <Link href={'/nile-cruise'} className="px-[5%] mb-4">
-            <BigCard Image={"/1.jpg"} Title={"Nile Curise"} />
+          <Link href={'/services'} className="flex-1 px-[5%] mb-4 ">
+            <BigCard Image={"https://images.pexels.com/photos/8470886/pexels-photo-8470886.jpeg?auto=compress&cs=tinysrgb&w=600"} Title={"Services"} />
           </Link>
-          <Link href={'/shore-excurssion'} className="px-[5%] mb-4">
-            <BigCard Image={"/2.jpg"} Title={"Shore Excursion"} />
+          <Link href={'/products'} className="flex-1 px-[5%] mb-4  max-900:hidden">
+            <BigCard Image={"https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=600"} Title={"Packages"} />
           </Link>
           </MobSlider>
         </div>

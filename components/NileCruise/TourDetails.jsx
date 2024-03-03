@@ -17,14 +17,7 @@ const settings = {
   arrows: false,
 };
 
-const hotelData = [
-  { name: "Ocean Breeze Resort", image: "hotel1.jpg" },
-  { name: "Mountain Vista Inn", image: "hotel2.jpg" },
-  { name: "Sunset Bay Hotel", image: "hotel3.jpg" },
-  { name: "Riverfront Lodge", image: "hotel4.jpg" },
-  // { name: "Starlight Grand Hotel", image: "/hotel5.jpg" },
-  // { name: "Golden Sands Resort", image: "/hotel6.jpg" },
-];
+
 const TourDetails = () => {
   const router = useRouter();
   const { pathname } = router;
@@ -39,7 +32,7 @@ const TourDetails = () => {
     <div className="  min-1200:float-left    w-[70%]  justify-between mx-auto   min-1200:mx-auto gap-10 max-900:!w-[95%] min-1200:pr-[5%]    max-1200:w-full  sm:mt-0 sm:flex-col">
       {/* {About this tour} */}
       <div className="mb-[30px] ">
-        <h1 className="font-bold text-[25px] mb-5">About this tour</h1>
+        <h1 className="font-bold text-[25px] mb-5">About this product</h1>
         <div className="flex flex-col gap-3">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -152,6 +145,13 @@ const TourDetails = () => {
             return <Reviews key={i} />;
           })}
       </ul>
+      <div className=" flex flex-col gap-5">
+        <h1 className="font-bold text-[20px]">Add Review</h1>
+        <div>
+          <input type="text" placeholder="title"  className="mb-3 w-full p-2 rounded-md shadow-md outline-none"/>
+          <textarea placeholder="we would like to know your opinion about our service.." type="text" name="" id="" rows={5} className="w-full outline-none shadow-md p-2 rounded-md"/>
+        </div>
+      </div>
       {/* <div className=" w-[100vw]">
        <h1 className="font-bold text-[30px] mb-5">Explore other options</h1>
         <div className="w-full mb-5 min-600:hidden  !mx-auto ">

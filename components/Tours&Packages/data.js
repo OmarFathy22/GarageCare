@@ -1,12 +1,11 @@
 export const WhereToGo = [
   "-- select one --",
-  "Alexandria",
-  "Cairo",
-  "Aswan",
-  "Luxor",
-  "Sharm El-Sheikh",
-  "Marsa allam",
-  "hurghada",
+  "Madinat Nasr",
+"Maadi",
+"Zamalek",
+"Heliopolis",
+"Nasr City",
+"Dokki"
 ];
 export const Destination = [
   "Alexandria",

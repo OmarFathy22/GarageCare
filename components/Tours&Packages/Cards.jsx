@@ -9,14 +9,14 @@ import { useState } from "react";
 
 import Link from "next/link";
 const Cards = () => {
-  const hotelData = [
-    { name: "Ocean Breeze Resort", image: "hotel1.jpg" },
-    { name: "Mountain Vista Inn", image: "hotel2.jpg" },
-    { name: "Sunset Bay Hotel", image: "hotel3.jpg" },
-    { name: "Riverfront Lodge", image: "hotel4.jpg" },
-    { name: "Starlight Grand Hotel", image: "hotel5.jpg" },
-    { name: "Golden Sands Resort", image: "hotel6.jpg" },
-  ];
+const hotelData = [
+  { name: "Oil Change", image: "https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?auto=compress&cs=tinysrgb&w=600" },
+  { name: "Tire Rotation and Alignment", image: "https://images.pexels.com/photos/4022545/pexels-photo-4022545.jpeg?auto=compress&cs=tinysrgb&w=600" },
+  { name: "Brake Inspection and Service", image: "https://images.pexels.com/photos/6870320/pexels-photo-6870320.jpeg?auto=compress&cs=tinysrgb&w=600" },
+  { name: "Air Filter Replacement", image: "https://images.pexels.com/photos/250307/pexels-photo-250307.jpeg?auto=compress&cs=tinysrgb&w=600" },
+  { name: "Fluid Checks and Top-Ups", image: "https://images.pexels.com/photos/6872148/pexels-photo-6872148.jpeg?auto=compress&cs=tinysrgb&w=600" },
+  { name: "Battery Inspection and Replacement", image: "https://images.pexels.com/photos/5835363/pexels-photo-5835363.jpeg?auto=compress&cs=tinysrgb&w=600" }
+];
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
@@ -26,7 +26,7 @@ const Cards = () => {
     <div className="flex-1 max-900:w-full  ">
       <FilterModal isOpen={isOpen} toggleDrawer={toggleDrawer} />
       <div className="flex justify-between items-center m-4 max-900:mx-5 max-900:mt-7 ">
-        <h1 className="text-[#165064] max-1200:hidden">Day Tours</h1>
+        <h1 className="text-[#165064] max-1200:hidden">Our Products</h1>
         <h1
           className="text-[#165064] cursor-pointer font-bold flex items-center gap-[2px] underline min-1200:hidden"
           onClick={toggleDrawer}

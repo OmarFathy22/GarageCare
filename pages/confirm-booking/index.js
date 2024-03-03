@@ -7,18 +7,15 @@ export default function TailorMade() {
   return (
     <Layout>
       <Head>
-        <title>Tailor made</title>
+        <title>Confirm Service/Product</title>
       </Head>
       <Hero
-        Title={"Tailor made"}
+        Title={"Confirm Booking"}
         SubTitle={"START YOUR ADVENTURE TODAY"}
-        Img={"/tailor-made-bg.png"}
+        Img={"https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&w=600"}
       />
-      <MobStartScreen
-        title={"Tailor Made"}
-        subtitle={"YOU CAN CHOOSE YOUR FAVORITE STYLE OF TRAVELING"}
-        img={"/Camel-Ride.png"}
-      />
+             <MobStartScreen title={"Confirm booking"} subtitle={" CHOOSE THE PERFECT PRODUCT THAT FITS YOUR NEEDS"} img={"https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&w=600"}/>
+
 
       <TailorMadeComp />
     </Layout>

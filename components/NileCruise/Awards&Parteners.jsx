@@ -20,7 +20,7 @@ const AwardsParteners = () => {
   return (
     <div>
     {/* {Awards & Recognitions} */}
-  <div className="mt-[20px] sm:w-[90%] sm:mx-auto">
+  {/* <div className="mt-[20px] sm:w-[90%] sm:mx-auto">
   <h1 className="text-center text-[30px] sm:text-[22px] mb-[30px] sm:mb-[15px]">Awards & Recognitions</h1>
     <div
       style={{
@@ -38,7 +38,7 @@ const AwardsParteners = () => {
         );
       })}
     </div>
-  </div>
+  </div> */}
    {/* {parteners} */}
    <div className="mt-[50px] sm:mt-[30px] sm:w-[90%] sm:mx-auto">
    <h1 className="text-center text-[30px] sm:text-[22px]">Our Parteners</h1>

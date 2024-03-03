@@ -73,7 +73,7 @@ const Form = () => {
 
         <div className="flex flex-col w-[32.2%] max-1300:w-[48%] max-900:!w-full">
           <label className="text-[#165064] text-[16px] font-semibold">
-            Where You Which to Go
+            which branch would you prefer
           </label>
           <select className="p-2  outline-none rounded-md h-[60px] bg-gray-100 border-[1px] focus:border-[#11A4BC]  mb-2">
             {WhereToGo.map((item, i) => {
@@ -97,7 +97,7 @@ const Form = () => {
           </div>
       </div>
       <button className="bg-[#11A4BC] mt-[20px]  text-white rounded-md hover:opacity-[0.9] trani   self-start px-7 w-fit py-3  cursor-pointer sm:mx-auto ">
-        Send an Inquiry
+        confirm
       </button>
     </form>
   );
